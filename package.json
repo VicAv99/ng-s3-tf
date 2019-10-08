@@ -8,6 +8,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "deploy": "aws s3 cp ./dist/apps/star-wars s3://swapi.bucket/ --recursive --acl public-read",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "affected:apps": "nx affected:apps",
