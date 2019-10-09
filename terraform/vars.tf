@@ -6,6 +6,10 @@ variable "AWS_REGION" {
   default = "us-east-1"
 }
 
-variable "BUCKET_NAME" {
-  default = "swapi.bucket"
+variable "ROOT_DOMAIN_NAME" {
+  default = "aproofofconcept.com"
+}
+
+variable "DOMAIN_NAME" {
+  default = "devops-frontend.aproofofconcept.com"
 }

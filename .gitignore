@@ -39,7 +39,6 @@ testem.log
 Thumbs.db
 
 # Terraform
-
 */terraform.tfvars
 */**/terraform.tfvars
 */terraform.tfstate
