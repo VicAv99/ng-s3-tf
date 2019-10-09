@@ -8,7 +8,6 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "deploy": "ng build && aws s3 cp ./dist/apps/star-wars s3://devops-frontend.aproofofconcept.com/ --recursive --acl public-read",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "affected:apps": "nx affected:apps",
